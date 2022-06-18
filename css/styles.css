@@ -16,16 +16,6 @@
 --color-sidebar: #2F303A;
 }
 
-html {
-box-sizing: border-box;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
 body {
 font-family: var(--main-font), sans-serif;
 font-size: 14px;
@@ -39,7 +29,19 @@ text-decoration: none;
 }
 
 .list {
+padding: 0;
+margin: 0;
 list-style: none;
+}
+/* Разметка */
+.conteiner {
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+}
+.section {
+padding-top: 94px;
+padding-bottom: 94px;
 }
 /* Черный текст заголовков */
 .section-title {
@@ -48,10 +50,14 @@ font-size: 36px;
 line-height: 1.16;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--black-color)
 }
 
-/* Шапка*/
+/* ШАПКА*/
+
+
+.header-box {
+margin-right: auto;
+}
 
 /* Логотип */
 .logo {
@@ -93,27 +99,15 @@ color: var(--accent-color);
 }
 
 /* Кнопка */
-.btn-hero {
-font-family: inherit;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.88;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-cursor: pointer;
-color: var(--white-bg-color);
-background-color: var(--accent-color);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
-border: none;
+.button {
+border: 1px solid transparenret;
 }
-.btn-hero:hover,
-.btn-hero:focus {
+.hero-button:hover,
+.hero-button:focus {
 background-color: var(--accent-color-bg);
 }
 
-/* Кнопки портфоліо */
+/* Кнопки портфолио */
 .btn-port {
 font-family: inherit;
 font-weight: 500;
@@ -124,9 +118,10 @@ letter-spacing: 0.03em;
 cursor: pointer;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-border: none;
+border: 1px solid transparent;
 color: var(--black-color);
 background-color: var(--bg-color-photo);
+padding: 6px 22px;
 }
 .btn-port:hover,
 .btn-port:focus {
@@ -155,7 +150,7 @@ letter-spacing: 0.03em;
 color: var(--grey-color);
 }
 
-/* Сайдбар */
+/* Сайдбар-Герой*/
 .hero-caption {
 font-weight: 900;
 font-size: 44px;
@@ -164,7 +159,9 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: var(--white-bg-color);
+margin: 30px;
 }
+
 .main-hero, footer {
 background: var(--color-sidebar);
 }
@@ -177,6 +174,13 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: var(--white-bg-color);
+font-family: inherit;
+cursor: pointer;
+background-color: var(--accent-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+border: 1px solid transparent;
+padding: 10px 32px;
 }
 /* Наши преимущества текст */
 .benefits-caption {
@@ -195,6 +199,12 @@ letter-spacing: 0.03em;
 color: var(--grey-color);
 }
 /* Фотокарты */
+.img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .team-item {
 width: 270px;
 height: 368px;
@@ -207,7 +217,6 @@ border-radius: 0px 0px 4px 4px;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
-/* identical to box height */
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--black-color);
@@ -217,7 +226,6 @@ background-color: var(--white-bg-color);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
-/* identical to box height */
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--grey-color)
@@ -228,7 +236,10 @@ box-sizing: border-box;
 background : var(--white-bg-color);
 border: 1px solid #EEEEEE;
 }
-/* Футер */
+/* ФУТЕР*/
+.footer {
+height: 252px;
+}
 .googlemaps {
 font-weight: 400;
 font-size: 14px;
