@@ -1,6 +1,5 @@
 {
   "arrowParents": "avoid",
-  "bracketSpacing": true,
   "htmlWhitespaceSensitivity": "strick",
   "insertPragma": false,
   "jsxSingleQuote": false,
