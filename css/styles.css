@@ -34,15 +34,57 @@ margin: 0;
 list-style: none;
 }
 /* Разметка */
+/* Задача контейнера оборачивать и центрировать горизонтально! */
 .conteiner {
-width: 1200px;
-padding-left: 15px;
-padding-right: 15px;
+width: 1600px;
 }
+.conteiner-footer {
+padding-top: 60px;
+padding-left: 215px;
+}
+/* Секции задаем падинги (оформление все через секцию)*/
 .section {
 padding-top: 94px;
 padding-bottom: 94px;
+padding-left: 15px;
+padding-right: 15px;
+margin-bottom: 94px;
+text-align: center;
 }
+
+.section-nav {
+padding: 0;
+margin-bottom: 80px;
+}
+
+.section-hero {
+background-color: var(--color-sidebar);
+text-align: center;
+margin-bottom: 14px;
+}
+.section-mar {
+margin-left: 215px;
+margin-right: 215px;
+padding: 0px;
+}
+
+.section-team {
+margin-bottom: 0px;
+padding-left: 215px;
+padding-right: 215px;
+}
+
+.address-mar {
+margin-bottom: 9px;
+}
+.h2-margin {
+margin-bottom: 50px;
+}
+
+.img-p {
+margin-bottom: 20px;
+}
+
 /* Черный текст заголовков */
 .section-title {
 font-weight: 700;
@@ -67,7 +109,12 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--accent-color);
+display: block;
 }
+.logo-footer {
+margin-bottom: 20px;
+}
+
 .span-web {
 color: var(--black-color); 
 }
@@ -140,6 +187,7 @@ font-size: 18px;
 line-height: 2.00;
 letter-spacing: 0.06em;
 color: var(--black-color);
+margin-bottom: 4px;
 }
 /* Формат компании */
 .project-class {
@@ -155,11 +203,13 @@ color: var(--grey-color);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-text-align: center;
 letter-spacing: 0.06em;
+align-items: center;
+text-align: center;
 text-transform: uppercase;
 color: var(--white-bg-color);
-margin: 30px;
+margin-bottom: 30px;
+margin-top: 120px;
 }
 
 .main-hero, footer {
@@ -169,7 +219,6 @@ background: var(--color-sidebar);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
@@ -190,6 +239,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--black-color);
+margin-bottom: 10px;
 }
 .benefits-subtitle {
 font-weight: 400;
@@ -200,9 +250,9 @@ color: var(--grey-color);
 }
 /* Фотокарты */
 .img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+display: block;
+max-width: 100%;
+height: auto;
 }
 
 .team-item {
