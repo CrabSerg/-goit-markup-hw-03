@@ -67,8 +67,12 @@ margin-bottom: 94px;
 padding: 0px;
 text-align: center;
 background-color: var(--color-sidebar);
-
 }
+
+.hero-text {
+width: 696px;
+}
+
 .section-benefits {
 padding: 0px;
 }
@@ -327,6 +331,9 @@ color: var(--grey-color);
 
 /* Сайдбар-Герой*/
 .hero-caption {
+display: flex;
+justify-content: space-around;
+
 margin-bottom: 30px;
 padding-top: 200px;
 font-weight: 900;
