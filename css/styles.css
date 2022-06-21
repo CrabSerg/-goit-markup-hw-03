@@ -68,7 +68,6 @@ padding: 0px;
 text-align: center;
 background-color: var(--color-sidebar);
 
-
 }
 .section-benefits {
 padding: 0px;
@@ -80,7 +79,6 @@ padding: 0px;
 
 .work-list {
 display: flex;
-text-align: left;
 justify-content: space-between;
 }
 
@@ -128,10 +126,66 @@ display: flex;
 align-items: center;
 }
 
+.header {
+border-bottom: 1px solid #ECECEC;
+}
+
 .header-list-address {
 display: flex;
 }
 
+/* Разметка портфолио */
+
+.header-port {
+margin-bottom: 94px;
+}
+
+.btn-filter-port {
+padding: 0px;
+display: flex;
+margin-bottom: 50px;
+}
+
+.btn-centre-port {
+display: flex;
+justify-content: space-around;
+}
+
+.filter-panel {
+width: 611px;
+display: flex;
+justify-content: space-between;
+}
+
+.btn-port {
+display: flex;
+text-align: center;
+}
+/* Секция картинок портфолио */
+.section-project {
+padding: 0px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.project-list {
+display: flex;
+flex-wrap: wrap;
+}
+
+.project-item {
+width: 370px;
+margin-right: 30px;
+margin-bottom: 30px;
+}
+
+.project-item:nth-child(3n) {
+margin-right: 0px;
+}
+
+.project-item:nth-last-child(-n + 3) {
+margin-bottom: 0px;
+}
 
 /* Черный текст заголовков */
 .section-title {
