@@ -38,11 +38,9 @@ list-style: none;
 .conteiner {
 margin-left: auto;
 margin-right: auto;
-width: 1170px;
-}
-
-.conteiner-footer {
-padding-top: 60px;
+padding-left: 15px;
+padding-right: 15px;
+width: 1200px;
 }
 
 /* Секции задаем падинги (оформление все через секцию)*/
@@ -63,8 +61,9 @@ margin: auto;
 }
 
 .section-hero {
-margin-bottom: 94px;
-padding: 0px;
+padding-bottom: 200px;
+padding-top: 200px;
+margin: 0px;
 text-align: center;
 background-color: var(--color-sidebar);
 }
@@ -74,11 +73,14 @@ width: 696px;
 }
 
 .section-benefits {
-padding: 0px;
+margin: 0px;
+padding-top: 94px;
+padding-bottom: 94px;
 }
 
 .section-work {
-padding: 0px;
+padding-bottom: 94px;
+margin: 0px;
 }
 
 .work-list {
@@ -99,12 +101,7 @@ text-align: left;
 }
 .section-team {
 margin-bottom: 0px;
-padding-left: 215px;
-padding-right: 215px;
-}
-
-.img-team {
-margin-bottom: 30px;
+padding-top: 94px;
 }
 
 .logo-position {
@@ -146,32 +143,27 @@ display: flex;
 
 /* Разметка портфолио */
 
-.header-port {
-margin-bottom: 94px;
-}
-
 .btn-filter-port {
-padding: 0px;
-display: flex;
+padding: 94px  215px;
 margin-bottom: 50px;
 }
 
 .btn-centre-port {
 display: flex;
-justify-content: space-around;
+margin-bottom: 50px;
+padding: auto;;
 }
 
 .filter-panel {
-width: 611px;
 display: flex;
-justify-content: space-between;
+margin-left: auto;
+margin-right: auto;
 }
 
 .btn-port {
 display: flex;
 text-align: center;
 }
-/* Секция картинок портфолио */
 .section-project {
 padding: 0px;
 margin-left: auto;
@@ -276,9 +268,12 @@ margin-right: 0px;
 .button {
 border: 1px solid transparenret;
 }
-.hero-btn {
-padding-bottom: 200px;
+
+.button-margin {
+margin-right: 8px;
 }
+
+
 .hero-button:hover,
 .hero-button:focus {
 background-color: var(--accent-color-bg);
@@ -335,7 +330,6 @@ display: flex;
 justify-content: space-around;
 
 margin-bottom: 30px;
-padding-top: 200px;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -376,6 +370,12 @@ text-align: left;
 width:270px;
 }
 
+.txt-allign {
+text-align: left;
+padding: 20px 24px;
+border-bottom: 1px solid #ECECEC;
+}
+
 
 .benefits-list .benefits-item:not(:last-child) {
 margin-right: 30px;
@@ -409,12 +409,21 @@ height: auto;
 margin-right: 30px;
 
 width: 270px;
-height: 368px;
 top: 1635px;
 background: var(--white-bg-color);
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 }
+
+.team-item:last-child {
+margin-right: 0px;
+}
+
+.comand-name {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
 .team-name {
 margin-bottom: 10px;
 font-weight: 500;
@@ -436,7 +445,8 @@ color: var(--grey-color)
 
 /* ФУТЕР*/
 .footer {
-height: 252px;
+padding-top: 60px;
+padding-bottom: 60px;
 }
 .googlemaps {
 font-weight: 400;
