@@ -79,13 +79,19 @@ padding: 0px;
 
 .work-list {
 display: flex;
-justify-content: space-between;
+}
+
+.work-items:last-child {
+margin-right: 0px;
+}
+
+.work-items {
+margin-right: 30px;
 }
 
 .team-list {
 display: flex;
 text-align: left;
-justify-content: space-between;
 }
 .section-team {
 margin-bottom: 0px;
@@ -171,6 +177,10 @@ margin-right: auto;
 .project-list {
 display: flex;
 flex-wrap: wrap;
+}
+
+.project-item:last-child {
+margin-right: 0px;
 }
 
 .project-item {
@@ -389,6 +399,8 @@ height: auto;
 }
 
 .team-item {
+margin-right: 30px;
+
 width: 270px;
 height: 368px;
 top: 1635px;
