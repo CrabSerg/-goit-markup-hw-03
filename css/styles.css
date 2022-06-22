@@ -44,15 +44,6 @@ width: 1200px;
 }
 
 /* Секции задаем падинги (оформление все через секцию)*/
-.section {
-padding-top: 94px;
-padding-bottom: 94px;
-padding-left: 15px;
-padding-right: 15px;
-margin-bottom: 94px;
-text-align: center;
-}
-
 .section-nav {
 padding: 0px;
 padding-top: 25px;
@@ -98,6 +89,7 @@ margin-right: 30px;
 .team-list {
 display: flex;
 text-align: left;
+padding-bottom: 94px;
 }
 .section-team {
 margin-bottom: 0px;
@@ -299,6 +291,9 @@ background-color: var(--bg-color-photo);
 .btn-port:focus {
 color: var(--white-bg-color);
 background-color: var(--accent-color);
+border-radius: 4px;
+border: 1px solid transparent;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /* Кнопка ефект текущего сайта */
 .curent {
@@ -374,6 +369,8 @@ width:270px;
 text-align: left;
 padding: 20px 24px;
 border-bottom: 1px solid #ECECEC;
+border-left: 1px solid #ECECEC;
+border-right: 1px solid #ECECEC;
 }
 
 
