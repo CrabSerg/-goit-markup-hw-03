@@ -23,7 +23,6 @@ background-color: var(--white-bg-color);
 color:var(--black-color);
 }
 
-/* Убираем точки и подчеркивание */
 .link {
 text-decoration: none;
 }
@@ -33,8 +32,7 @@ padding: 0;
 margin: 0;
 list-style: none;
 }
-/* Разметка */
-/* Задача контейнера оборачивать и центрировать горизонтально! */
+
 .conteiner {
 margin-left: auto;
 margin-right: auto;
@@ -43,7 +41,6 @@ padding-right: 15px;
 width: 1200px;
 }
 
-/* Секции задаем падинги (оформление все через секцию)*/
 .section-nav {
 padding: 0px;
 padding-top: 25px;
@@ -88,7 +85,6 @@ margin-right: 30px;
 
 .team-list {
 display: flex;
-text-align: left;
 padding-bottom: 94px;
 }
 .section-team {
@@ -110,8 +106,6 @@ margin-bottom: 50px;
 margin-bottom: 20px;
 }
 
-/* Флексбоксы */
-/* Размеетка шапки */
 .nav-list {
 margin-right: 331px;
 display: flex;
@@ -132,8 +126,6 @@ border-bottom: 1px solid #ECECEC;
 .header-list-address {
 display: flex;
 }
-
-/* Разметка портфолио */
 
 .btn-filter-port {
 padding-top: 94px;
@@ -186,8 +178,6 @@ margin-right: 0px;
 margin-bottom: 0px;
 }
 
-
-/* Черный текст заголовков */
 .section-title {
 font-weight: 700;
 font-size: 36px;
@@ -196,14 +186,10 @@ text-align: center;
 letter-spacing: 0.03em;
 }
 
-/* ШАПКА*/
-
-
 .header-box {
 margin-right: auto;
 }
 
-/* Логотип */
 .logo {
 display: block;
 
@@ -225,16 +211,14 @@ color: var(--black-color);
     color: var(--white-bg-color);
 }
 
-/* Навигация */
 .nav-btn {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--black-color);
-
 }
-/* Секция адрес */
+
 .mailtel {
 margin-right: 50px;
 
@@ -254,7 +238,7 @@ color: var(--accent-color);
 .margin-tel {
 margin-right: 0px;
 }
-/* Кнопка */
+
 .button {
 border: 1px solid transparenret;
 }
@@ -263,13 +247,11 @@ border: 1px solid transparenret;
 margin-right: 8px;
 }
 
-
 .hero-button:hover,
 .hero-button:focus {
 background-color: var(--accent-color-bg);
 }
 
-/* Кнопки портфолио */
 .btn-port {
 padding: 6px 22px;
 font-family: inherit;
@@ -293,12 +275,11 @@ border-radius: 4px;
 border: 1px solid transparent;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-/* Кнопка ефект текущего сайта */
+
 .curent {
     color: var(--accent-color);
 }
 
-/* Нейм компаний (в портфолио) */
 .project-namecompany {
 margin-bottom: 4px;
 font-weight: 700;
@@ -308,7 +289,6 @@ letter-spacing: 0.06em;
 color: var(--black-color);
 }
 
-/* Формат компании */
 .project-class {
 font-weight: 400;
 font-size: 16px;
@@ -317,7 +297,6 @@ letter-spacing: 0.03em;
 color: var(--grey-color);
 }
 
-/* Сайдбар-Герой*/
 .hero-caption {
 display: flex;
 justify-content: space-around;
@@ -331,7 +310,6 @@ align-items: center;
 text-align: center;
 text-transform: uppercase;
 color: var(--white-bg-color);
-
 }
 
 .main-hero, footer {
@@ -353,24 +331,20 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 border: 1px solid transparent;
 }
-/* Наши преимущества текст */
 
 .benefits-list {
 display: flex;
-text-align: left;
 }
 .benefits-item {
 width:270px;
 }
 
 .txt-allign {
-text-align: left;
 padding: 20px 24px;
 border-bottom: 1px solid #ECECEC;
 border-left: 1px solid #ECECEC;
 border-right: 1px solid #ECECEC;
 }
-
 
 .benefits-list .benefits-item:not(:last-child) {
 margin-right: 30px;
@@ -393,7 +367,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--grey-color);
 }
-/* Фотокарты */
+
 .image, .image-p {
 display: block;
 max-width: 100%;
@@ -438,7 +412,6 @@ letter-spacing: 0.03em;
 color: var(--grey-color)
 }
 
-/* ФУТЕР*/
 .footer {
 padding-top: 60px;
 padding-bottom: 60px;
