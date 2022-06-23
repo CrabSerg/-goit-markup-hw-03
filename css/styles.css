@@ -140,16 +140,14 @@ padding-top: 94px;
 margin-bottom: 50px;
 }
 
-.btn-centre-port {
-display: flex;
-margin-bottom: 50px;
-padding: auto;;
-}
-
 .filter-panel {
-display: flex;
+margin-bottom: 50px;
 margin-left: auto;
 margin-right: auto;
+padding: auto;
+
+display: flex;
+justify-content: center;
 }
 
 .btn-port {
